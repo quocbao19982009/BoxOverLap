@@ -1,0 +1,25 @@
+{
+  "name": "boxoverlap",
+  "version": "1.0.0",
+  "description": "A simple version of box overlap algorithm with different browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/server.ts",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "installAll": "npm install && npm install --prefix frontend",
+    "installFrontend": "npm install --prefix frontend"
+  },
+  "author": "Bao Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/ws": "^8.5.10"
+  }
+}

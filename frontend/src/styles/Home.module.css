@@ -1,0 +1,58 @@
+/* TODO FIX THIS SO IT DOESN"T LOOK TO CLOSE */
+
+.theme-1 h1 {
+  color: red;
+}
+
+.theme-1 .square-1 {
+  background: rgba(247, 215, 196, 0.5);
+}
+.theme-1 .square-2 {
+  background: rgba(156, 114, 72, 0.5);
+}
+.theme-1 .square-3 {
+  background: rgb(205, 115, 163, 0.5);
+}
+
+.theme-2 .square-1 {
+  background: rgba(247, 215, 196, 0.5);
+}
+.theme-2 .square-2 {
+  background: rgba(156, 114, 72, 0.5);
+}
+.theme-2 .square-3 {
+  background: rgb(205, 115, 163, 0.5);
+}
+.theme-3 .square-1 {
+  background: rgba(247, 215, 196, 0.5);
+}
+.theme-3 .square-2 {
+  background: rgba(156, 114, 72, 0.5);
+}
+.theme-3 .square-3 {
+  background: rgb(205, 115, 163, 0.5);
+}
+
+.square {
+  width: 50vw;
+  height: 50vw;
+  display: flex;
+  flex-shrink: 0;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+.other-square {
+  transition: all 0.05s ease-in-out;
+}
+
+.details {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+.hide {
+  display: none;
+}
