@@ -1,6 +1,16 @@
-A simple code exploration, inspired by (and stollen from) Björn Staal and Momcilo Popov. [More info here](https://www.linkedin.com/feed/update/urn:li:activity:7133171531567816705/).
+# Interactive Window Tabs Box
 
-![Screen Recording 2023-11-23 at 11 12 57](https://github.com/Momciloo/fun-with-sockets/assets/15079459/90b4fea3-fd53-4127-bbb9-96e76944e9f4)
+## About
+
+A simple application made with React (NextJs) and local storage. The user can open the application in multiple tabs and move the box around. The box will be visible in all tabs.
+
+The application was inspired by Björn Staal and [Momcilo Popov](https://www.linkedin.com/in/momciloo/)
+
+[Original repo](https://github.com/Momciloo/fun-with-sockets/tree/main) from Momcilo Popov
+
+## Demo
+
+[Demo Link](https://box-over-lap.vercel.app/)
 
 # Running the Experiment Locally
 
